@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url("https://img.freepik.com/free-photo/healthy-oatmeal-recipe-with-fruits-nuts_53876-110646.jpg?w=900&t=st=1668173701~exp=1668174301~hmac=1ed5139a107f13de92e7eb6f08702ab18947692928aacd3daa20c99263bb9350") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: rgb(58, 155, 25);
+}
